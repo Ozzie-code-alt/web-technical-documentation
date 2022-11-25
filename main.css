@@ -11,8 +11,16 @@ body{
     grid-template-columns: repeat(2,1fr);
 }
 .mainbody .leftside{
+    text-align: center;
     background-color: aqua;
+    justify-content: center;
+    
+
 }
 .mainbody .rightside{
     background-color: aquamarine;
+}
+
+.mainbody .leftside .buttons{
+    margin-top: 20rem;
 }
