@@ -8,17 +8,28 @@
     <link rel="stylesheet" href="/main.css">
     <script src="/main.js" defer></script>
 </head>
-<body>
+<body onload="hideDef()"> </body>
     <div class="mainbody">
         <div class="leftside">
             <div class="buttons">
-            <button class="HtmlFund"> HTML </button>
-            <button class="CSSFund"> CSS </button>
-            <button class="JSFund"> JS </button>
+            <button class="HtmlFund"  id="next"onclick="nextCall()"> HTML </button>
+            <button class="CSSFund" id="next"onclick="nextCall2()"> CSS </button>
+            <button class="JSFund" id="next" onclick="nextCall3()"> JS </button>
         </div>
         </div>
 
         <div class="rightside">
+            <p id="p01">HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images.
+
+                Each individual piece markup code (which would fall between "<" and ">" characters) is referred to as an element, though many people also refer to it as a tag. Some elements come in pairs that indicate when some display effect is to begin and when it is to end.</p>
+                <p id="p02">HTML</p>
+              
+                <p id="p03">Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.
+
+                    CSS helps Web developers create a uniform look across several pages of a Web site. Instead of defining the style of each table and each block of text within a page's HTML, commonly used styles need to be defined only once in a CSS document. Once the style is defined in cascading style sheet, it can be used by any page that references the CSS file. Plus, CSS makes it easy to change styles across several pages at once. For example, a Web developer may want to increase the default text size from 10pt to 12pt for fifty pages of a Web site. If the pages all reference the same style sheet, the text size only needs to be changed on the style sheet and all the pages will show the larger text.</p>
+                <p id="p04">CSS.</p>
+                <p id="p05">JavaScript is a client-side scripting language, which means the source code is processed by the client's web browser rather than on the web server. This means JavaScript functions can run after a webpage has loaded without communicating with the server. For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out. The JavaScript code can produce an error message before any information is actually transmitted to the server.</p>
+                <p id="p06">JAVASCRIPT</p>
         </div>
     </div>
 </body>

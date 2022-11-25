@@ -18,6 +18,8 @@ body{
 
 }
 .mainbody .rightside{
+    text-align: center;
+    justify-content: center;
     background-color: aquamarine;
 }
 
